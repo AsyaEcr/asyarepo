@@ -1,0 +1,18 @@
+body {
+    
+}
+
+h1{
+    front-size: 44px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color:rgb(46, 200, 200)
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color: rgb(3, 245, 3);
+}
+
+
