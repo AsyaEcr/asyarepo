@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Naming For CSS</title>
+    <style>
+        * {}
+
+        .container {
+            width: 500px;
+            height: 500px;
+            background-color: coral;
+        }
+
+        .profile-cart {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .profile-cart__img {
+            width: 200px;
+        }
+
+        .profile-cart__heading {
+            font-size: 24px;
+            margin: 5px 0 5px 0;
+        }
+
+        .profile-cart__job-title {
+            font-size: 18px;
+            margin: 5px 0 5px 0;
+        }
+
+        .profile-cart__link-container {
+           margin-top: 5px;
+        }
+
+.profile-cart__link--linkedin {
+background-color: blue;
+}
+
+
+        .profile-cart__link {
+            font-size: 16px;
+            color: blueviolet;
+            text-decoration: none;
+            background-color: honeydew;
+            padding: 7.5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-cart">
+            <img src="#" alt="resim gelecek" class="profile-cart__img">
+            <h1 class="profile-cart__heading">Asya Ecrin Uslu</h1>
+            <h2 class="profile-cart__job-title">Wrb Developer</h2>
+            <div class="profile-cart__link-container">
+                <a href="#" class="profile-cart__link">Email</a>
+                <a href="" class="profile-cart__link--likedin  profile-cart__link">Linkedin</a>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
